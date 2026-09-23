@@ -1,0 +1,204 @@
+{
+  "students": [
+    {
+      "id": "1",
+      "name": "alex",
+      "grade": 11,
+      "marks": {
+        "maths": 80,
+        "physics": 50,
+        "chemistry": 35
+      }
+    },
+    {
+      "id": "2",
+      "name": "gary",
+      "grade": 12,
+      "marks": {
+        "maths": 70,
+        "physics": 50,
+        "chemistry": 65
+      }
+    },
+    {
+      "id": "3",
+      "name": "stuart",
+      "grade": 11,
+      "marks": {
+        "maths": 80,
+        "physics": 20,
+        "chemistry": 90
+      }
+    },
+    {
+      "name": "David",
+      "grade": 10,
+      "marks": {
+        "maths": 88,
+        "physics": 76,
+        "chemistry": 92
+      },
+      "id": "4"
+    },
+    {
+      "name": "홍길동",
+      "grade": 10,
+      "id": "yvBWwsrziaw"
+    }
+  ],
+  "logs": [
+    {
+      "message": "Changed network card in server 007",
+      "attention": false,
+      "tech": "Sam Smith",
+      "date": "2019-05-31T15:46:10.179Z",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "message": "Workstation 007 not posting",
+      "attention": true,
+      "tech": "John Doe",
+      "date": "2019-05-31T16:18:04.245Z"
+    },
+    {
+      "message": "Changedmemo station 050",
+      "attention": true,
+      "tech": "Sara Wilson",
+      "date": "2019-05-31T15:46:48.690Z",
+      "id": "3"
+    }
+  ],
+  "boards": [
+    {
+      "id": "1",
+      "title": "첫 번째 게시글",
+      "text": "안녕하세요. 첫 번째 게시글입니다.",
+      "mem_id": "홍길동",
+      "reg_dtm": "2025-01-01",
+      "mod_dtm": "2025-01-02",
+      "count": 0
+    },
+    {
+      "id": "2",
+      "title": "두 번째 게시글22",
+      "text": "안녕하세요.22 두 번째 게시글입니다.",
+      "mem_id": "이순신",
+      "reg_dtm": "2025-01-03",
+      "mod_dtm": "2026-09-23",
+      "count": 0
+    },
+    {
+      "id": "3",
+      "title": "세 번째 게시글",
+      "text": "안녕하세요. 세 번째 게시글입니다.",
+      "mem_id": "홍길동",
+      "reg_dtm": "2025-01-05",
+      "mod_dtm": "2025-01-06",
+      "count": 0
+    },
+    {
+      "title": "안녕하세요",
+      "text": "ㅋㅋㅋ",
+      "mem_id": "이순신",
+      "count": 0,
+      "reg_dtm": "2026-09-23",
+      "mod_dtm": "",
+      "id": "q7oyWXbkGxg"
+    },
+    {
+      "title": "테슽트",
+      "text": "테스트",
+      "mem_id": "121212",
+      "count": 0,
+      "reg_dtm": "2026-09-23",
+      "mod_dtm": "2026-09-23",
+      "id": "2ZTCDT1oQ4s"
+    },
+    {
+      "title": "여기 주제가 뭔가요",
+      "text": "주제가 없으니 아무거나 쓸게요 음음음",
+      "mem_id": "junho",
+      "count": 0,
+      "reg_dtm": "2026-09-23",
+      "mod_dtm": "2026-09-23",
+      "id": "piWXQV9fJw4"
+    },
+    {
+      "title": "테스트3",
+      "text": "테스트",
+      "mem_id": "121212",
+      "count": 0,
+      "reg_dtm": "2026-09-23",
+      "mod_dtm": "",
+      "id": "QMw0m7fiVgQ"
+    }
+  ],
+  "mem": [
+    {
+      "id": "1",
+      "mem_id": "홍길동",
+      "pwd": "1234"
+    },
+    {
+      "id": "2",
+      "mem_id": "이순신",
+      "pwd": "5678"
+    },
+    {
+      "mem_id": "121212",
+      "pwd": "222",
+      "id": "i_V8dKtEdK4"
+    },
+    {
+      "mem_id": "",
+      "pwd": "",
+      "id": "Xc6ymKrmsmo"
+    },
+    {
+      "mem_id": "leejungin",
+      "pwd": "1234",
+      "id": "3cbuD0oS6IE"
+    },
+    {
+      "mem_id": "junho",
+      "pwd": "1234",
+      "id": "7J027IayEZg"
+    }
+  ],
+  "reply": [
+    {
+      "id": "1",
+      "board_id": 1,
+      "mem_id": "이순신",
+      "reply": "",
+      "del_flg": "N",
+      "reg_dtm": "2025-01-01 10:15:00"
+    },
+    {
+      "id": "2",
+      "board_id": 1,
+      "mem_id": "홍길동",
+      "reply": "감사합니다. 좋은 하루 보내세요!",
+      "del_flg": "N",
+      "reg_dtm": "2025-01-01 11:20:00"
+    },
+    {
+      "id": "3",
+      "board_id": 2,
+      "mem_id": "홍길동",
+      "reply": "두 번째 게시글에도 응원 댓글 남깁니다.",
+      "del_flg": "N",
+      "reg_dtm": "2025-01-03 16:00:00"
+    },
+    {
+      "board_id": "piWXQV9fJw4",
+      "mem_id": "121212",
+      "reply": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+      "del_flg": "N",
+      "reg_dtm": "2026-09-23",
+      "id": "4FfF1I07Kjg"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
