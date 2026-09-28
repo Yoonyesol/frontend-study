@@ -132,6 +132,15 @@
       "reg_dtm": "2026-09-23",
       "mod_dtm": "",
       "id": "QMw0m7fiVgQ"
+    },
+    {
+      "title": "추석연휴 잘 보내십시요 ",
+      "text": "추석연휴 잘 보내십시요 ",
+      "mem_id": "leejungin",
+      "count": 0,
+      "reg_dtm": "2026-09-23",
+      "mod_dtm": "",
+      "id": "unGrwzyKaJU"
     }
   ],
   "mem": [
@@ -164,6 +173,16 @@
       "mem_id": "junho",
       "pwd": "1234",
       "id": "7J027IayEZg"
+    },
+    {
+      "mem_id": "푸",
+      "pwd": "1111",
+      "id": "iJK2yacbotE"
+    },
+    {
+      "mem_id": "1234",
+      "pwd": "1234",
+      "id": "JskCGz18wkI"
     }
   ],
   "reply": [
