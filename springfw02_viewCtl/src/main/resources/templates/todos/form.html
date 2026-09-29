@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head><meta charset="UTF-8"><title>등록</title></head>
+<body>
+<h1>새 할 일</h1>
+<form th:action="@{/todos}" th:object="${todo}" method="post">
+    <input type="text" th:field="*{title}" placeholder="제목을 입력하세요">
+    <button type="submit">등록</button>
+</form>
+
+<!-- 삭제 폼 (form 중첩 불가이므로 별도로 분리) -->
+<form th:action="@{/todos/{id}(id=${todo.id})}" method="post" style="display:inline;">
+    <input type="hidden" name="_method" value="DELETE">
+    <button type="submit" onclick="return confirm('정말 삭제하시겠습니까?')">삭제</button>
+</form>
+
+<a th:href="@{/todos}">목록으로</a>
+</body>
+</html>
