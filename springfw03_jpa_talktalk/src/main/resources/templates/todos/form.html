@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head><meta charset="UTF-8"><title>등록</title></head>
+<body>
+<h1>새 할 일</h1>
+<form th:action="@{/todos}" th:object="${todo}" method="post">
+    <input type="text" th:field="*{title}" placeholder="제목을 입력하세요">
+    <button type="submit">등록</button>
+</form>
+
+<a th:href="@{/todos}">목록으로</a>
+</body>
+</html>

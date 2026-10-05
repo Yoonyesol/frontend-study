@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>상세</title>
+</head>
+<body>
+
+<h1 th:text="${todo.title}">제목</h1>
+<p>번호: <span th:text="${todo.id}"></span></p>
+<p>상태: <span th:text="${todo.done} ? '완료' : '진행중'"></span></p>
+<a th:href="@{/todos}">목록으로</a>
+
+<form th:action="@{/todos/{id}(id=${todo.id})}" method="POST">
+    <input type="submit" value="삭제"/>
+</form>
+
+</body>
+</html>

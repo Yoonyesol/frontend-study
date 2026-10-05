@@ -1,0 +1,19 @@
+package com.mycomp.talktalk.config;
+
+importorg.springframework.context.annotation.Configuration;
+importorg.springframework.web.servlet.config.annotation.CorsRegistry;
+importorg.springframework.web.servlet.config.annotation.WebMvcConfigurer;
+
+@Configuration
+public class WebConfig implements WebMvcConfigurer{
+
+    @Override
+    public voidaddCorsMappings(CorsRegistry registry) {
+        registry.addMapping("/api/**")
+                .allowedOrigins("http://localhost:3000", "https://myapp.com") // front-end domain
+                .allowedMethods("GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS")
+                .allowedHeaders("*")
+                .allowCredentials(true)
+                .maxAge(3600);
+    }
+}

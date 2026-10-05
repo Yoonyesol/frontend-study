@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  font-family: 'Noto Sans KR', system-ui, sans-serif;
+  background: #f6f7f9;
+  color: #1d2127;
+}
+.container { max-width: 720px; margin: 40px auto; padding: 0 16px; }
+h1 { font-size: 22px; margin-bottom: 16px; }
+
+table { width: 100%; border-collapse: collapse; background: #fff; }
+th, td { padding: 12px 16px; border-bottom: 1px solid #e3e6ea; text-align: left; }
+th { background: #fafbfc; font-size: 13px; color: #6b7280; font-weight: 500; }
+tbody tr:hover { background: #fafaff; }
+
+.avatar { width: 32px; height: 32px; border-radius: 50%; object-fit: cover; }
+.count { text-align: right; font-size: 13px; color: #6b7280; }
+.message { text-align: center; color: #6b7280; padding: 48px 0; }
+.message.error { color: #dc2626; }
